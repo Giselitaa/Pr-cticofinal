@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "arabe";
+  src: url("../fuentes/harlowsi.ttf")format("truetype");}
+
+body {background-color: #90C1C4 ;
+background-image: url(../imagenes/varios.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 95% 5%;}
+header {background-color: #90C4AD ;}
+header{border: 5px black solid;}
+header {display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;}
+header {width: 100%;
+height: 50%;}
+header:hover {
+  background-color: #67CDA0;
+  justify-content: space-between;
+}
+nav {display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;}
+nav{background-color: ;}
+nav {height: 4vh;}
+
+a:hover {color:red;}
+
+aside{display: flex;
+  justify-content: center;
+flex-wrap: wrap;}
+  aside{background-color: ;}
+footer{display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;}
+
+
+.redesF { width: 6vw;
+height: 6vh;}
+.redesI {width: 6vw;
+height: 6vh;}
+.redesT {width: 6vw;
+height: 6vh;}
+.logo { width: 10%;
+height: 10%;}
+.iconowhats {width: 5%;
+height: 6%;
+  position: fixed;
+  bottom: 7%;
+  right: 1%;}
+.rojoletra {color: black;
+font-size: 300%;
+text-decoration: underline;}
+.parrafoss {text-align:center;}
+.caja { width: 50%;
+height: 50%;}
+.fotito { width: 100%;
+height: 100%;}
+.row {display: flex;
+justify-content: center;
+margin: 2vh; }
+.Card {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;}
+
+
+
+.fotochevi1 { display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   width: 70%;
+height: 70%;}
+.fotochevi2 {display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+height: 70%;}
+.fotochevi3 {display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   width: 70%;
+height: 70%;}
+.fotochevi4 {display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   width: 70%;
+height: 70%;}
+
+
+
+
+
+
+
+
+
+
+.tituloconta {font-family: 'Nerko One', cursive;}
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+.rojoletra {font-family: "arabe"}
+
+@media(max-width: 768px) {
+body {
+ background-color:;}
+@media(max-width: 768px) {
+nav {
+background-color: ;}
+@media (min-width: 700px) {
+.lostacos {
+display: none;}
+
+@media (max-width: 360px) {
+body {
+background-color: purple;}
+@media (max-width: 360px) {
+header {
+background-color: red;}
+@media (max-width: 360px) {
+.videoyoutu {
+display: none;}
